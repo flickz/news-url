@@ -1,0 +1,33 @@
+{
+  "name": "news-url",
+  "version": "1.0.0",
+  "description": "News url Identification module",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flickz/news-url.git"
+  },
+  "keywords": [
+    "news",
+    "url",
+    "articles",
+    "scraper"
+  ],
+  "author": "Oluwaseun Omoyajowo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flickz/news-url/issues"
+  },
+  "homepage": "https://github.com/flickz/news-url#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "tld-extract": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "nyc": "^10.3.0"
+  }
+}
