@@ -66,10 +66,10 @@ exports.isValidNewsUrl = function(url, verbose=false){
         if(verbose)console.log(url, " caught for bad url paths \n");
         return false;
     }
-    if(_url._hasGoodPath(pathChuncks)){
-        if(verbose)console.log(url, " verified for good path \n");
-        return true;
-    }
+    // if(_url._hasGoodPath(pathChuncks)){
+    //     if(verbose)console.log(url, " verified for good path \n");
+    //     return true;
+    // }
 
     if(verbose)console.log(url, "caught for default false");
     return false;
