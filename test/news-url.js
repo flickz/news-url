@@ -1,6 +1,6 @@
 'use strict'
 const chai = require('chai');
-const url = require("../news-url");
+const url = require("./index.js");
 const fs = require("fs");
 const path = require('path')
 const _ = require('lodash');

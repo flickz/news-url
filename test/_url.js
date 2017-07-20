@@ -1,5 +1,5 @@
 const chai = require('chai');
-const _url = require("../news-url/lib/_url");
+const _url = require("../lib/_url");
 const urlPaser = require('url');
 
 describe("_Url", function(){
