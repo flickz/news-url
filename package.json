@@ -1,6 +1,6 @@
 {
   "name": "news-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "News url Identification module",
   "main": "index.js",
   "scripts": {
